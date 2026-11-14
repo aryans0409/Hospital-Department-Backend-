@@ -1,0 +1,753 @@
+{
+    "patients": [
+        {
+            "patient_id": "P0001",
+            "first_name": "Aarav",
+            "last_name": "Sharma",
+            "dob": "1988-03-12",
+            "gender": "Male",
+            "admission_date": "2026-06-01",
+            "discharge_date": null,
+            "diagnosis": "Pneumonia",
+            "ward": "Respiratory",
+            "bed": "R-12",
+            "attending_physician": "Dr. Mehta",
+            "contact_phone": "+91-9876543210",
+            "emergency_contact_name": "Rina Sharma",
+            "emergency_contact_phone": "+91-9123456780",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0002",
+            "first_name": "Sara",
+            "last_name": "Khan",
+            "dob": "1995-11-04",
+            "gender": "Female",
+            "admission_date": "2026-05-28",
+            "discharge_date": "2026-06-03",
+            "diagnosis": "Appendicitis",
+            "ward": "Surgery",
+            "bed": "S-03",
+            "attending_physician": "Dr. Rao",
+            "contact_phone": "+91-9988776655",
+            "emergency_contact_name": "Imran Khan",
+            "emergency_contact_phone": "+91-9988776611",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0003",
+            "first_name": "Liam",
+            "last_name": "Patel",
+            "dob": "1972-07-22",
+            "gender": "Male",
+            "admission_date": "2026-06-05",
+            "discharge_date": null,
+            "diagnosis": "Type 2 Diabetes - Complications",
+            "ward": "Endocrinology",
+            "bed": "E-07",
+            "attending_physician": "Dr. Banerjee",
+            "contact_phone": "+91-9112233445",
+            "emergency_contact_name": "Nisha Patel",
+            "emergency_contact_phone": "+91-9112233000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0004",
+            "first_name": "Maya",
+            "last_name": "Gupta",
+            "dob": "2001-02-15",
+            "gender": "Female",
+            "admission_date": "2026-06-08",
+            "discharge_date": null,
+            "diagnosis": "Fractured Arm",
+            "ward": "Orthopedics",
+            "bed": "O-21",
+            "attending_physician": "Dr. Singh",
+            "contact_phone": "+91-9001122334",
+            "emergency_contact_name": "Rohit Gupta",
+            "emergency_contact_phone": "+91-9001122000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0005",
+            "first_name": "Noah",
+            "last_name": "Desai",
+            "dob": "1965-09-30",
+            "gender": "Male",
+            "admission_date": "2026-05-20",
+            "discharge_date": "2026-06-02",
+            "diagnosis": "Hypertension",
+            "ward": "Cardiology",
+            "bed": "C-02",
+            "attending_physician": "Dr. Kapoor",
+            "contact_phone": "+91-9223344556",
+            "emergency_contact_name": "Anita Desai",
+            "emergency_contact_phone": "+91-9223344000",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0006",
+            "first_name": "Olivia",
+            "last_name": "Singh",
+            "dob": "2018-12-05",
+            "gender": "Female",
+            "admission_date": "2026-06-09",
+            "discharge_date": null,
+            "diagnosis": "Bronchiolitis",
+            "ward": "Pediatrics",
+            "bed": "P-10",
+            "attending_physician": "Dr. Iyer",
+            "contact_phone": "+91-9334455667",
+            "emergency_contact_name": "Ritika Singh",
+            "emergency_contact_phone": "+91-9334455000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0007",
+            "first_name": "Ethan",
+            "last_name": "Shah",
+            "dob": "1980-04-18",
+            "gender": "Male",
+            "admission_date": "2026-06-02",
+            "discharge_date": null,
+            "diagnosis": "Severe Migraine",
+            "ward": "Neurology",
+            "bed": "N-05",
+            "attending_physician": "Dr. Mehra",
+            "contact_phone": "+91-9445566778",
+            "emergency_contact_name": "Sonal Shah",
+            "emergency_contact_phone": "+91-9445566000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0008",
+            "first_name": "Aisha",
+            "last_name": "Kumar",
+            "dob": "1992-10-11",
+            "gender": "Female",
+            "admission_date": "2026-05-30",
+            "discharge_date": "2026-06-04",
+            "diagnosis": "Cesarean Section",
+            "ward": "Maternity",
+            "bed": "M-01",
+            "attending_physician": "Dr. Rao",
+            "contact_phone": "+91-9556677889",
+            "emergency_contact_name": "Zeenat Kumar",
+            "emergency_contact_phone": "+91-9556677000",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0009",
+            "first_name": "Lucas",
+            "last_name": "Verma",
+            "dob": "1958-06-02",
+            "gender": "Male",
+            "admission_date": "2026-06-07",
+            "discharge_date": null,
+            "diagnosis": "Chest Pain - Observation",
+            "ward": "Cardiology",
+            "bed": "C-11",
+            "attending_physician": "Dr. Kapoor",
+            "contact_phone": "+91-9667788990",
+            "emergency_contact_name": "Meera Verma",
+            "emergency_contact_phone": "+91-9667788000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0010",
+            "first_name": "Zoya",
+            "last_name": "Malik",
+            "dob": "2004-01-20",
+            "gender": "Female",
+            "admission_date": "2026-06-10",
+            "discharge_date": null,
+            "diagnosis": "Gastritis",
+            "ward": "Gastroenterology",
+            "bed": "G-06",
+            "attending_physician": "Dr. Bhat",
+            "contact_phone": "+91-9778899001",
+            "emergency_contact_name": "Sana Malik",
+            "emergency_contact_phone": "+91-9778899000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0011",
+            "first_name": "Noor",
+            "last_name": "Patel",
+            "dob": "1979-08-08",
+            "gender": "Female",
+            "admission_date": "2026-05-18",
+            "discharge_date": "2026-06-01",
+            "diagnosis": "Kidney Stones",
+            "ward": "Urology",
+            "bed": "U-02",
+            "attending_physician": "Dr. Nair",
+            "contact_phone": "+91-9887766554",
+            "emergency_contact_name": "Hassan Patel",
+            "emergency_contact_phone": "+91-9887766000",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0012",
+            "first_name": "Ishaan",
+            "last_name": "Reddy",
+            "dob": "2010-05-14",
+            "gender": "Male",
+            "admission_date": "2026-06-09",
+            "discharge_date": null,
+            "diagnosis": "Fever - Viral",
+            "ward": "Pediatrics",
+            "bed": "P-12",
+            "attending_physician": "Dr. Iyer",
+            "contact_phone": "+91-9012345678",
+            "emergency_contact_name": "Geeta Reddy",
+            "emergency_contact_phone": "+91-9012345000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0013",
+            "first_name": "Priya",
+            "last_name": "Nair",
+            "dob": "1986-12-02",
+            "gender": "Female",
+            "admission_date": "2026-06-03",
+            "discharge_date": "2026-06-09",
+            "diagnosis": "Migraine",
+            "ward": "Neurology",
+            "bed": "N-02",
+            "attending_physician": "Dr. Mehra",
+            "contact_phone": "+91-9123456711",
+            "emergency_contact_name": "Suresh Nair",
+            "emergency_contact_phone": "+91-9123456000",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0014",
+            "first_name": "Arjun",
+            "last_name": "Bose",
+            "dob": "1990-09-09",
+            "gender": "Male",
+            "admission_date": "2026-06-11",
+            "discharge_date": null,
+            "diagnosis": "COVID-19",
+            "ward": "Isolation",
+            "bed": "ISO-04",
+            "attending_physician": "Dr. Dutta",
+            "contact_phone": "+91-9234567890",
+            "emergency_contact_name": "Kavita Bose",
+            "emergency_contact_phone": "+91-9234567000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0015",
+            "first_name": "Sara",
+            "last_name": "Agarwal",
+            "dob": "1975-04-21",
+            "gender": "Female",
+            "admission_date": "2026-06-04",
+            "discharge_date": "2026-06-07",
+            "diagnosis": "UTI",
+            "ward": "General",
+            "bed": "G-01",
+            "attending_physician": "Dr. Sen",
+            "contact_phone": "+91-9345678901",
+            "emergency_contact_name": "Vikram Agarwal",
+            "emergency_contact_phone": "+91-9345678000",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0016",
+            "first_name": "Kian",
+            "last_name": "Rao",
+            "dob": "2008-11-30",
+            "gender": "Male",
+            "admission_date": "2026-06-10",
+            "discharge_date": null,
+            "diagnosis": "Asthma Attack",
+            "ward": "Pediatrics",
+            "bed": "P-08",
+            "attending_physician": "Dr. Iyer",
+            "contact_phone": "+91-9456789012",
+            "emergency_contact_name": "Leena Rao",
+            "emergency_contact_phone": "+91-9456789000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0017",
+            "first_name": "Mira",
+            "last_name": "Chopra",
+            "dob": "1998-07-17",
+            "gender": "Female",
+            "admission_date": "2026-06-06",
+            "discharge_date": null,
+            "diagnosis": "Severe Allergy",
+            "ward": "Allergy",
+            "bed": "A-03",
+            "attending_physician": "Dr. Sharma",
+            "contact_phone": "+91-9567890123",
+            "emergency_contact_name": "Naveen Chopra",
+            "emergency_contact_phone": "+91-9567890000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0018",
+            "first_name": "Rohan",
+            "last_name": "Mehta",
+            "dob": "1983-03-27",
+            "gender": "Male",
+            "admission_date": "2026-05-25",
+            "discharge_date": "2026-06-01",
+            "diagnosis": "Gallbladder Removal",
+            "ward": "Surgery",
+            "bed": "S-10",
+            "attending_physician": "Dr. Rao",
+            "contact_phone": "+91-9678901234",
+            "emergency_contact_name": "Ritu Mehta",
+            "emergency_contact_phone": "+91-9678901000",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0019",
+            "first_name": "Anya",
+            "last_name": "Khan",
+            "dob": "2016-02-14",
+            "gender": "Female",
+            "admission_date": "2026-06-11",
+            "discharge_date": null,
+            "diagnosis": "Fever - Observation",
+            "ward": "Pediatrics",
+            "bed": "P-15",
+            "attending_physician": "Dr. Iyer",
+            "contact_phone": "+91-9789012345",
+            "emergency_contact_name": "Sana Khan",
+            "emergency_contact_phone": "+91-9789012000",
+            "status": "admitted"
+        },
+        {
+            "patient_id": "P0020",
+            "first_name": "Vikram",
+            "last_name": "Joshi",
+            "dob": "1950-12-01",
+            "gender": "Male",
+            "admission_date": "2026-05-10",
+            "discharge_date": "2026-06-05",
+            "diagnosis": "COPD",
+            "ward": "Respiratory",
+            "bed": "R-03",
+            "attending_physician": "Dr. Mehta",
+            "contact_phone": "+91-9890123456",
+            "emergency_contact_name": "Sushma Joshi",
+            "emergency_contact_phone": "+91-9890123000",
+            "status": "discharged"
+        },
+        {
+            "patient_id": "P0021",
+            "first_name": "Raj",
+            "last_name": "Kumar",
+            "dob": "1985-05-20",
+            "gender": "Male",
+            "admission_date": "2026-06-12",
+            "discharge_date": null,
+            "diagnosis": "Fever",
+            "ward": "General",
+            "bed": "G-10",
+            "attending_physician": "Dr. Singh",
+            "contact_phone": "+91-9000000000",
+            "emergency_contact_name": "Sita",
+            "emergency_contact_phone": "+91-9111111111",
+            "status": "admitted"
+        }
+    ],
+    "doctors": [
+        {
+            "doctor_id": "D001",
+            "first_name": "Rohan",
+            "last_name": "Mehta",
+            "title": "Dr.",
+            "specialty": "Pulmonology",
+            "department": "Respiratory",
+            "phone": "+91-9810000001",
+            "email": "rohan.mehta@hospital.example",
+            "office": "Respiratory Wing 3A",
+            "patient_ids": [
+                "P0001",
+                "P0007"
+            ],
+            "nurse_ids": [
+                "N001",
+                "N002"
+            ]
+        },
+        {
+            "doctor_id": "D002",
+            "first_name": "Ananya",
+            "last_name": "Rao",
+            "title": "Dr.",
+            "specialty": "Obstetrics & Gynecology",
+            "department": "Maternity",
+            "phone": "+91-9810000002",
+            "email": "ananya.rao@hospital.example",
+            "office": "Maternity Block 2B",
+            "patient_ids": [
+                "P0002",
+                "P0008"
+            ],
+            "nurse_ids": [
+                "N003",
+                "N004"
+            ]
+        },
+        {
+            "doctor_id": "D003",
+            "first_name": "Venkat",
+            "last_name": "Banerjee",
+            "title": "Dr.",
+            "specialty": "Endocrinology",
+            "department": "Endocrinology",
+            "phone": "+91-9810000003",
+            "email": "venkat.banerjee@hospital.example",
+            "office": "Endocrine Center 4C",
+            "patient_ids": [
+                "P0003"
+            ],
+            "nurse_ids": [
+                "N005"
+            ]
+        },
+        {
+            "doctor_id": "D004",
+            "first_name": "Priyesh",
+            "last_name": "Singh",
+            "title": "Dr.",
+            "specialty": "Orthopedics",
+            "department": "Orthopedics",
+            "phone": "+91-9810000004",
+            "email": "priyesh.singh@hospital.example",
+            "office": "Ortho Center 1A",
+            "patient_ids": [
+                "P0004"
+            ],
+            "nurse_ids": [
+                "N006"
+            ]
+        },
+        {
+            "doctor_id": "D005",
+            "first_name": "Neha",
+            "last_name": "Kapoor",
+            "title": "Dr.",
+            "specialty": "Cardiology",
+            "department": "Cardiology",
+            "phone": "+91-9810000005",
+            "email": "neha.kapoor@hospital.example",
+            "office": "Cardiac Care 5D",
+            "patient_ids": [
+                "P0005",
+                "P0009"
+            ],
+            "nurse_ids": [
+                "N007"
+            ]
+        },
+        {
+            "doctor_id": "D006",
+            "first_name": "Neelam",
+            "last_name": "Iyer",
+            "title": "Dr.",
+            "specialty": "Pediatrics",
+            "department": "Pediatrics",
+            "phone": "+91-9810000006",
+            "email": "neelam.iyer@hospital.example",
+            "office": "Pediatrics Ward 2F",
+            "patient_ids": [
+                "P0006",
+                "P0012"
+            ],
+            "nurse_ids": [
+                "N008"
+            ]
+        },
+        {
+            "doctor_id": "D007",
+            "first_name": "Arjun",
+            "last_name": "Mehra",
+            "title": "Dr.",
+            "specialty": "Neurology",
+            "department": "Neurology",
+            "phone": "+91-9810000007",
+            "email": "arjun.mehra@hospital.example",
+            "office": "Neuro Center 6B",
+            "patient_ids": [
+                "P0007"
+            ],
+            "nurse_ids": [
+                "N002"
+            ]
+        },
+        {
+            "doctor_id": "D008",
+            "first_name": "Aditi",
+            "last_name": "Bhat",
+            "title": "Dr.",
+            "specialty": "Gastroenterology",
+            "department": "Gastroenterology",
+            "phone": "+91-9810000008",
+            "email": "aditi.bhat@hospital.example",
+            "office": "Gastro Wing 7C",
+            "patient_ids": [
+                "P0010"
+            ],
+            "nurse_ids": [
+                "N004"
+            ]
+        },
+        {
+            "doctor_id": "D009",
+            "first_name": "Suresh",
+            "last_name": "Nair",
+            "title": "Dr.",
+            "specialty": "Urology",
+            "department": "Urology",
+            "phone": "+91-9810000009",
+            "email": "suresh.nair@hospital.example",
+            "office": "Urology Suite 3D",
+            "patient_ids": [
+                "P0011"
+            ],
+            "nurse_ids": [
+                "N006"
+            ]
+        }
+    ],
+    "nurses": [
+        {
+            "nurse_id": "N001",
+            "first_name": "Priya",
+            "last_name": "Shah",
+            "ward_assignment": "Respiratory",
+            "shift": "Day",
+            "phone": "+91-9810000011",
+            "email": "priya.shah@hospital.example",
+            "assigned_doctor_id": "D001",
+            "assigned_patient_ids": [
+                "P0001"
+            ],
+            "supervisor_staff_id": "S001"
+        },
+        {
+            "nurse_id": "N002",
+            "first_name": "Kavita",
+            "last_name": "Patel",
+            "ward_assignment": "Neurology",
+            "shift": "Night",
+            "phone": "+91-9810000012",
+            "email": "kavita.patel@hospital.example",
+            "assigned_doctor_id": "D007",
+            "assigned_patient_ids": [
+                "P0007"
+            ],
+            "supervisor_staff_id": "S001"
+        },
+        {
+            "nurse_id": "N003",
+            "first_name": "Meera",
+            "last_name": "Khan",
+            "ward_assignment": "Maternity",
+            "shift": "Day",
+            "phone": "+91-9810000013",
+            "email": "meera.khan@hospital.example",
+            "assigned_doctor_id": "D002",
+            "assigned_patient_ids": [
+                "P0002",
+                "P0008"
+            ],
+            "supervisor_staff_id": "S002"
+        },
+        {
+            "nurse_id": "N004",
+            "first_name": "Ritika",
+            "last_name": "Malik",
+            "ward_assignment": "Gastroenterology",
+            "shift": "Evening",
+            "phone": "+91-9810000014",
+            "email": "ritika.malik@hospital.example",
+            "assigned_doctor_id": "D008",
+            "assigned_patient_ids": [
+                "P0010"
+            ],
+            "supervisor_staff_id": "S002"
+        },
+        {
+            "nurse_id": "N005",
+            "first_name": "Sonia",
+            "last_name": "Verma",
+            "ward_assignment": "Endocrinology",
+            "shift": "Day",
+            "phone": "+91-9810000015",
+            "email": "sonia.verma@hospital.example",
+            "assigned_doctor_id": "D003",
+            "assigned_patient_ids": [
+                "P0003"
+            ],
+            "supervisor_staff_id": "S003"
+        },
+        {
+            "nurse_id": "N006",
+            "first_name": "Ayesha",
+            "last_name": "Singh",
+            "ward_assignment": "Orthopedics",
+            "shift": "Night",
+            "phone": "+91-9810000016",
+            "email": "ayesha.singh@hospital.example",
+            "assigned_doctor_id": "D004",
+            "assigned_patient_ids": [
+                "P0004",
+                "P0011"
+            ],
+            "supervisor_staff_id": "S003"
+        },
+        {
+            "nurse_id": "N007",
+            "first_name": "Nikita",
+            "last_name": "Desai",
+            "ward_assignment": "Cardiology",
+            "shift": "Evening",
+            "phone": "+91-9810000017",
+            "email": "nikita.desai@hospital.example",
+            "assigned_doctor_id": "D005",
+            "assigned_patient_ids": [
+                "P0005",
+                "P0009"
+            ],
+            "supervisor_staff_id": "S004"
+        },
+        {
+            "nurse_id": "N008",
+            "first_name": "Anju",
+            "last_name": "Reddy",
+            "ward_assignment": "Pediatrics",
+            "shift": "Day",
+            "phone": "+91-9810000018",
+            "email": "anju.reddy@hospital.example",
+            "assigned_doctor_id": "D006",
+            "assigned_patient_ids": [
+                "P0006",
+                "P0012"
+            ],
+            "supervisor_staff_id": "S004"
+        }
+    ],
+    "staff": [
+        {
+            "staff_id": "S001",
+            "first_name": "Anjali",
+            "last_name": "Verma",
+            "role": "Ward Coordinator",
+            "department": "Respiratory / Neurology",
+            "phone": "+91-9810000021",
+            "email": "anjali.verma@hospital.example",
+            "assigned_ward": "Respiratory",
+            "supports_doctor_ids": [
+                "D001",
+                "D007"
+            ],
+            "supports_nurse_ids": [
+                "N001",
+                "N002"
+            ]
+        },
+        {
+            "staff_id": "S002",
+            "first_name": "Kiran",
+            "last_name": "Patel",
+            "role": "Maternity Supervisor",
+            "department": "Maternity / Gastroenterology",
+            "phone": "+91-9810000022",
+            "email": "kiran.patel@hospital.example",
+            "assigned_ward": "Maternity",
+            "supports_doctor_ids": [
+                "D002",
+                "D008"
+            ],
+            "supports_nurse_ids": [
+                "N003",
+                "N004"
+            ]
+        },
+        {
+            "staff_id": "S003",
+            "first_name": "Ramesh",
+            "last_name": "Shah",
+            "role": "Clinical Supervisor",
+            "department": "Endocrinology / Orthopedics",
+            "phone": "+91-9810000023",
+            "email": "ramesh.shah@hospital.example",
+            "assigned_ward": "Endocrinology",
+            "supports_doctor_ids": [
+                "D003",
+                "D004"
+            ],
+            "supports_nurse_ids": [
+                "N005",
+                "N006"
+            ]
+        },
+        {
+            "staff_id": "S004",
+            "first_name": "Neelam",
+            "last_name": "Joshi",
+            "role": "Pediatric Care Lead",
+            "department": "Pediatrics / Cardiology",
+            "phone": "+91-9810000024",
+            "email": "neelam.joshi@hospital.example",
+            "assigned_ward": "Pediatrics",
+            "supports_doctor_ids": [
+                "D005",
+                "D006"
+            ],
+            "supports_nurse_ids": [
+                "N007",
+                "N008"
+            ]
+        },
+        {
+            "staff_id": "S005",
+            "first_name": "Mukul",
+            "last_name": "Bhatt",
+            "role": "Medical Records",
+            "department": "Administration",
+            "phone": "+91-9810000025",
+            "email": "mukul.bhatt@hospital.example",
+            "assigned_ward": "Administration",
+            "supports_doctor_ids": [
+                "D001",
+                "D002",
+                "D003"
+            ],
+            "supports_nurse_ids": [
+                "N001",
+                "N003",
+                "N005"
+            ]
+        },
+        {
+            "staff_id": "S006",
+            "first_name": "Shivani",
+            "last_name": "Kumar",
+            "role": "Patient Services",
+            "department": "Front Desk",
+            "phone": "+91-9810000026",
+            "email": "shivani.kumar@hospital.example",
+            "assigned_ward": "Reception",
+            "supports_doctor_ids": [
+                "D004",
+                "D008",
+                "D009"
+            ],
+            "supports_nurse_ids": [
+                "N004",
+                "N006"
+            ]
+        }
+    ]
+}
